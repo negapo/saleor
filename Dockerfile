@@ -1,4 +1,4 @@
-### Build and install packages
+# syntax=docker/dockerfile:1.3
 FROM python:3.12 AS build-python
 
 RUN apt-get -y update \
